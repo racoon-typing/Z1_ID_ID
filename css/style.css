@@ -536,6 +536,7 @@
 .dream__product-wrapper {
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -546,6 +547,27 @@
     display: block;
     position: relative;
     height: 300px;
+    margin-bottom: 10px;
+}
+
+.dream__price-wrapper {
+    display: block;
+    background-color: #cccccc;
+}
+
+.dream__product-price {
+    position: relative;
+}
+
+.dream__product-price::before {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid red;
+    top: 7px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    rotate: -6deg;
 }
 
 /* .dream__product-wrapper::before {
