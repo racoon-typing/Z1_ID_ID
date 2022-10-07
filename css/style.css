@@ -331,6 +331,15 @@
 }
 
 
+/* ОБВЕДЕННЫЙ ТЕКСТ */
+.content__border {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #e7eef2;
+}
+
+
 /* ССЫЛКА НА ТОВАР */
 .sale__container {
     width: 100%;
