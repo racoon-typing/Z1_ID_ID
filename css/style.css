@@ -288,12 +288,12 @@
 }
 
 .flex-list__item--container:nth-child(1)::before {
-    content: 'Fase I – desintoxicación del cuerpo';
+    content: 'Fase I – Hidrasi dan perlindungan';
     left: calc(50% - 170px);
 }
 
 .flex-list__item--container:nth-child(2)::before {
-    content: 'Fase II – Quema de grasa automática';
+    content: 'Fase II – Pemulihan Otomatis';
     left: calc(50% - 170px);
 }
 
@@ -690,7 +690,9 @@
 }
 
 .main-header__title {
+    text-align: left;
     font-size: 16px;
+    line-height: 20px;
     margin: 0;
     padding: 0;
 }
