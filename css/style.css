@@ -467,19 +467,19 @@
 }
 
 .checkmark-list__item--miniature:nth-child(1)::before {
-    background-image: url('../img/content-photo/content-9.png');
+    background-image: url('../img/content-photo/content-12.png');
 }
 
 .checkmark-list__item--miniature:nth-child(2)::before {
-    background-image: url('../img/content-photo/content-10.png');
+    background-image: url('../img/content-photo/content-9.png');
 }
 
 .checkmark-list__item--miniature:nth-child(3)::before {
-    background-image: url('../img/content-photo/content-11.png');
+    background-image: url('../img/content-photo/content-10.png');
 }
 
 .checkmark-list__item--miniature:nth-child(4)::before {
-    background-image: url('../img/content-photo/content-12.png');
+    background-image: url('../img/content-photo/content-11.png');
 }
 
 .checkmark-list__item--miniature:nth-child(5)::before {
