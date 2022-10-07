@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html class="page" lang="de">
+
+<head>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.15/css/intlTelInput.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.15/js/intlTelInput.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="./css/styles-prev.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="script/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="script/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%7CLato%7CUbuntu">
+    <title>Green Coffee</title>
+</head>
+
+<body class="page__body">
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            var phones = document.querySelectorAll('input[name=phone]');
+            for (var i = phones.length - 1; i >= 0; i--) {
+                processInput(phones[i]);
+            }
+        });
+
+        function processInput(phone) {
+            var iti = window.intlTelInput(phone, {
+                allowDropdown: false,
+                initialCountry: 'GT',
+                nationalMode: true,
+                autoPlaceholder: 'aggressive',
+                formatOnDisplay: true,
+                separateDialCode: false,
+                utilsScript: 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.15/js/utils.min.js'
+            });
+            phone.addEventListener('input', () => {
+                phone.setCustomValidity('');
+                if (!iti.isValidNumber()) phone.setCustomValidity('!!!');
+            });
+        }
+    </script>
+
+    <!-- <div class="s0 margin ">
+        <img src="./img-new/man-insta.jpg" alt="" class="header-png " style="display: block;
+            margin: 0 auto; max-width: 375px;">
+        <img src="./img-new/model.jpg" alt="" class="header-png " style="display: block;
+            margin: 0 auto; max-width: 375px;">
+    </div> -->
+
+
+    <!-- Хедер -->
+    <header class="main-header">
+        <div class="main-header__wrapper">
+            <h2 class="title main-header__title">Portal de Salud Guatemala</h2>
+
+            <a class="main-header__link" href="#buy">Comprar</a>
+        </div>
+    </header>
+
+
+    <main class="main-container">
+
+        <section class="content-block">
+
+            <figure class="figure__img">
+                <img class="full-img no-margin-bottom" src="./img/content-photo/content-1.jpg" alt="">
+            </figure>
+
+            <!-- <div class="doctor__avatar-wrapper">
+                <img class="doctor__avatar" src="./img/content-photo/content-2.png" alt="">
+                <p class="text">
+                    PROFESOR. Mauro Martinez
+                </p>
+            </div> -->
+
+            <h1 class="main-title">
+                Perderá 14 kg en 28 días: el efecto está confirmado por estudios independientes.
+            </h1>
+
+            <h2 class="title">
+                (Una solución revolucionaria solo para personas de 25 a 80 años; si es más joven, no lo lea)
+            </h2>
+
+            <div class="dedicated__doc-info">
+                <img class="dedicated__doc-img" src="./img/content-photo/content-3.jpg" alt="">
+                <p class="text dedicated__doc-text">
+                    Hola, mi nombre es Mauro Martinez , soy experto en el campo de la biología molecular. En esta página
+                    me gustaría presentarles el mayor logro de mi vida, por el cual he recibido varios premios de
+                    prestigio. He desarrollado un producto natural que permite a cualquier persona perder hasta 14 kg en
+                    28 días de forma inmediata, sin dietas y sin estrés. Este innovador método solo funciona si tienes
+                    entre 25 y 80 años. ¡Te explicaré cómo funciona todo! Estos son granos de café verde, el
+                    procesamiento especial permite mantener todos los elementos necesarios, lo que ayuda a perder peso y
+                    quema muchas más calorías que las capsulas y otros medicamentos con funcion similar
+                </p>
+            </div>
+
+            <h2 class="title title--second">
+                No necesita cambiar su estilo de vida para adelgazar:
+            </h2>
+
+            <ul class="checkmark-list">
+                <li class="checkmark-list__item checkmark-list__item--small">
+                    Pierde 14 kg en 28 días, aunque el ayuno y el ejercicio intenso no funcionen:
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--small">
+                    Reduce el nivel de colesterol dañino después de las primeras 2 semanas de usar este café verde y
+                    reduce el riesgo de aterosclerosis en un 82%;
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--small">
+                    Reduce eficazmente los niveles de azúcar en sangre y previene el desarrollo de diabetes mellitus;
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--small">
+                    Reduce el riesgo de accidentes cerebrovascular, infarto de miocardio y artrosis en un 91 %;
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--small">
+                    Previene permanentemente el efecto rebote
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--small">
+                    Es 3 veces mas fuerte y me veo genial en cualquier prenda que utilize
+                </li>
+            </ul>
+
+            <p class="text">
+                No importa la edad que tengas, mientras sea de 25 a 80, ni los medicamentos que tomes o el tiempo que
+                lleves con sobrepeso. No importa si tu exceso de peso es hereditario, resultado del embarazo o de la
+                toma de medicamentos. No importa si está aumentando solo unas pocas libras o si tiene una obesidad poco
+                saludable.
+            </p>
+
+
+            <p class="text">
+                Incluso si has hecho miles de intentos para adelgazar no tendras resultados, solamente decepciones...
+                pero este es el final. Gracias a este producto, podrás perder hasta 14 kg en 28 días y finalmente lograr
+                una figura esbelta y atractiva. Sin esfuerzo, sin dieta y sin eliminar la comida.
+            </p>
+
+            <p class="text">
+                Puedes conseguirlo todo sin visitar a un asesor de nutrición, dieta, ejercicio, ayuno, sacrificio y
+                frustración. Y puedes ahorrar cientos de miles de quetzales en el proceso. Así que asegúrese de leer lo
+                que escribí para usted.
+            </p>
+        </section>
+
+        <!-- Список -->
+        <section class="container__flex-list">
+            <h2 class="title title--second no-margin-top">
+                Esto es es una gran alternativa para la dieta de personas entre 25 a 80 años:
+            </h2>
+
+            <!-- Флекс список -->
+            <ol class="flex-list">
+                <!-- 1 -->
+                <li class="flex-list__item">
+                    <h2 class="flex-list__item-title">
+                        Es natural y funciona en correspondencia con tu cuerpo.
+                    </h2>
+                    <p class="flex-list__item-text">
+                        Si tienes hambre, nunca alcanzarás tu objetivo. Nuestro cuerpo está hecho para comer. Es así de
+                        simple. Cuando te niegas a comer, estás actuando contra la naturaleza. Por lo tanto, ya no podrá
+                        lograr el efecto de la pérdida de peso. Lo mismo sucede cuando obligas a tu cuerpo a hacer
+                        ejercicios. Estos granos cambian la tasa de quema de grasa y el metabolismo, y por lo tanto…
+                    </p>
+                </li>
+
+                <!-- 2 -->
+                <li class="flex-list__item">
+                    <h2 class="flex-list__item-title">
+                        Esto garantiza un efecto rápido y muy fuerte.
+                    </h2>
+                    <p class="flex-list__item-text">
+                        En lugar de comer verduras hervidas durante meses, renunciar a sus comidas y dulces favoritos y
+                        contar cada caloría, puedes ajustar tu cuerpo a un nivel diferente de quema de grasa. Sin
+                        levantar pesas, sin ropa que absorba la humedad o cualquier otra cosa. La conclusión es que
+                        agiliza los mecanismos metabólicos en personas entre 25 a 80 años.
+                    </p>
+                </li>
+
+                <!-- 3 -->
+                <li class="flex-list__item">
+                    <h2 class="flex-list__item-title">
+                        No hay necesidad de morirse de hambre.
+                    </h2>
+                    <p class="flex-list__item-text">
+                        Como dije, puedes comer lo que quieras, tanto como quieras y cuando quieras. La comida no es lo
+                        que te impide perder peso , sino cómo tu cuerpo asimila la comida que ingieres y la convierte en
+                        energía.
+                    </p>
+                </li>
+
+                <!-- 4 -->
+                <li class="flex-list__item">
+                    <h2 class="flex-list__item-title">
+                        Quema grasa automáticamente las 24 horas del día
+                    </h2>
+                    <p class="flex-list__item-text">
+                        Puede perder peso de manera efectiva incluso acostado en el sofá con el control remoto del
+                        televisor en la mano. Todo gracias a los granos de Green coffe que pueden limitar el apetito y
+                        aumentar la quema de grasa en más de un 350 %.
+                    </p>
+                </li>
+
+                <!-- 5 -->
+                <li class="flex-list__item">
+                    <h2 class="flex-list__item-title">
+                        Protege tu salud.
+                    </h2>
+                    <p class="flex-list__item-text">
+                        Green coffe limpia tu cuerpo de depósitos de grasas y toxinas, reduce el nivel de colesterol
+                        dañino y azúcar en la sangre. Reduce drásticamente el riesgo de aterosclerosis, ataque cardíaco,
+                        accidente cerebrovascular, diabetes y degeneración de las articulaciones de la rodilla y la
+                        cadera.
+                    </p>
+                </li>
+
+                <!-- 6 -->
+                <li class="flex-list__item">
+                    <h2 class="flex-list__item-title">
+                        Te hace perder peso de una vez por todas.
+                    </h2>
+                    <p class="flex-list__item-text">
+                        el Green coffe trabaja en armonía con las funciones naturales del cuerpo de las personas de 25 a
+                        80 años. Así, el efecto rebote no se produce después de cada dieta.
+                    </p>
+                </li>
+
+                <!-- 7 -->
+                <li class="flex-list__item">
+                    <h2 class="flex-list__item-title">
+                        Ahorra cientos de quetzales
+                    </h2>
+                    <p class="flex-list__item-text">
+                        En lugar de gastar dinero en nutricionistas, entrenadores personales y productos dietéticos,
+                        puedes usar Green coffe . Pague una vez por 1 mes y elimine el exceso de peso para siempre.
+                    </p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="content-block">
+            <h2 class="title title--second no-margin-top">
+                He desarrollado un método natural para personas de 25 a 80 años, que elimina las causas de la obesidad y
+                quema grasa automáticamente.
+            </h2>
+
+            <p class="text">
+                Gracias a ella te desharás para siempre del exceso de peso, obtendrás el cuerpo de tus sueños y
+                protegerás tu salud... Te olvidarás de la ropa demasiado grande, de los dolores de rodilla al subir
+                escaleras, de la dificultad para respirar después de unos pocos pasos y de la carga sobre el cuerpo al
+                caminar, por pequeña que sea. También olvidará toda la vergüenza, la frustración y los celos que a
+                menudo se superan comiendo en exceso.
+            </p>
+
+            <p class="text">
+                Gracias a mi descubrimiento, perderás unos 14 kilogramos en 28 días. ¡Cualquier prenda te quedará bien y
+                tu figura te sorprenderá! Finalmente, podrás lucir con orgullo tu cuerpo en la playa, en la piscina o
+                frente a tu pareja en la cama… Y todo porque logré encontrar un método que destruye las causas de la
+                obesidad y funciona las 24 horas. Quemar grasa automáticamente todo el tiempo. ¿Cómo hacerlo?
+            </p>
+
+            <h2 class="title title--third">
+                Quiero que mi esposa se libre de sus inseguridades
+            </h2>
+
+            <p class="text">
+                Según estudios recientes, cada tercer residente de Guatemala tiene sobrepeso. Este es un gran problema,
+                especialmente para las mujeres. Un cuerpo delgado nos da confianza y nos hace más atractivos: esta es
+                una necesidad completamente natural y apropiada para todos nosotros. Pero más que eso, la obesidad
+                representa un grave riesgo para la salud. La obesidad provoca un mayor riesgo (alrededor del 350%) de
+                accidente cerebrovascular, aterosclerosis, diabetes, accidente cerebrovascular, ataque cardíaco o
+                degeneración articular grave. También es la causa de enfermedades que complican la vida cotidiana, como
+                dolor en los dedos de los pies, eczemas, erupciones cutáneas y alergias. Lamentablemente, mi esposa
+                Elvira también tiene problemas de sobrepeso...
+            </p>
+
+            <p class="text">
+                Antes de casarnos, ella era una mujer hermosa y esbelta. Ella no cuenta las calorías, come lo que quiere
+                y nunca sube de peso. Con los años, después del nacimiento de dos hijos, comenzó a aumentar de peso. Los
+                pliegues de grasa en el abdomen, los muslos son una gran fuente de inseguridad para ella. Aunque la
+                amaba por lo que es, también noté que estaba muy descontenta por eso. Se agota tanto física como
+                mentalmente.
+            </p>
+
+            <p class="text">
+                Elvira se avergüenza de su cuerpo, no está acostumbrada a su apariencia. Realmente le molesta. Tengo
+                mucho miedo de hablar con ella. Un día llegó a casa histérica. "¡Mi vestido está roto! ¡Estoy gorda y
+                fea como una vaca!" ella gritó, sollozando. Cerró la puerta y se encerró en el dormitorio. Así empieza a
+                ser nuestra vida diaria.
+            </p>
+
+            <p class="text">
+                Lo peor está por venir. Elvira está cada vez peor. Las articulaciones comienzan a dolerles. No podía
+                subir al segundo piso porque le dolían las rodillas y se ahogaba. Así que empezó a perder peso, o más
+                bien... a morirse de hambre. Desafortunadamente, la efectividad de la dieta no ha sido probada. ¡Fue una
+                amenaza para la vida! Después de perder algunos kilogramos, volvió a ganar peso debido a un metabolismo
+                lento. Estaba cada vez más decepcionada. No solo su cuerpo se volvió enorme , sino que perdió la salud.
+            </p>
+
+
+            <h2 class="title title--second">
+                ¿Cómo encontrar un "remedio contra la obesidad"?
+            </h2>
+
+            <p class="text">
+                Tuve que ayudar a mi esposa a recuperar su esbelta figura , buen humor y, lo más importante, buena
+                salud. Quiero que se deshaga de la obsesión por verse bien y vuelva a ser feliz. Pensé para mis
+                adentros: "¡Vaya, eres un científico! La biología y la química están a tu disposición. Has desarrollado
+                muchos métodos para tratar diversas enfermedades. ¡Solo haz algo contra la obesidad!" Fue entonces
+                cuando comencé mi estudio ...
+            </p>
+
+            <p class="text">
+                He estado haciendo un ustudio de laboratorio riguroso durante más de un año. Probé varias combinaciones
+                de ingredientes activos en mi esposa. Solo quiero señalar que todo es 100% natural y seguro para el
+                cuerpo. El conocimiento científico, el trabajo duro y un poco de suerte conducen rápidamente al éxito:
+                he descubierto un producto único para perder peso. Inmediatamente lo envié para probarlo a mayor escala.
+                ¡La eficiencia del 98% ha sido confirmada por centros de investigación en Europa y EE. UU.! Durante las
+                pruebas, ayudó naturalmente a los voluntarios a perder un promedio de 14 kg en 1 mes.
+            </p>
+
+            <p class="text">
+                Mi esposa se sintió mejor inmediatamente después de usar este producto para bajar de peso. Ella está
+                feliz de que no tenga ataques de hambre, porque no está controlada por un antojo incontrolable de comida
+                poco saludable o algo dulce. Y esto es sólo el principio. Después de la primera semana, perdió cinco
+                libras. Ella está llena de energía. “Mauro, se siente como si la grasa se hubiera ido”, gritó feliz,
+                ¡poniéndose un pantalón que no usaba desde hacía cuatro años!
+            </p>
+
+
+            <h2 class="title title--second">
+                Sin dieta, perdió 26 kg en 2 meses.
+            </h2>
+
+            <p class="text">
+                No podíamos creer lo que veiamos, el peso disminuia cada día, y la cintura y las caderas de mi esposa
+                eran cada vez más pequeñas. La celulitis que tanto odiaba también han desaparecido. Después de 2 meses,
+                mi esposa estaba muy feliz y dijo: "¡Mauro, me probé mi vestido de novia y me quedó perfecto! ¡Tengo un
+                cuerpo delgado, como antes de nuestra boda! ¡Has encontrado el remedio contra la obesidad! y ayudaras a
+                muchas personas! Muchas gracias por eso."
+            </p>
+
+            <p class="text">
+                Gracias a mi descubrimiento, Elvira perdió 26 kg en 2 meses. Ella pierde peso automáticamente, sin
+                dietas ni ejercicios violentos. Este producto limpió su cuerpo y obtuvo vitalidad - ahora sube las
+                escaleras más rápido que nuestra hija - ¡no le duele nada y también alivio el dolor en los dedos de los
+                pies! Pero eso no es todo. ¡Su nivel de colesterol ha vuelto a la normalidad y ya no tenemos miedo de la
+                aterosclerosis, los ataques cardíacos o los derrames cerebrales!
+            </p>
+
+
+            <h2 class="title title--second">
+                ​​Nunca se ha logrado una pérdida de peso increíble sin dañar la salud. Hoy, con mi producto, las
+                personas entre 25 a 85 años no solo pierden peso de forma rápida y segura, sino que también evitan el
+                efecto yo-yo.
+            </h2>
+
+            <img class="full-img" src="./img/content-photo/content-4.jpg" alt="">
+
+            <div class="content__background-wrapper no-margin-bottom">
+                <p class="content__allocated-text content__allocated-text--second">
+                    <b>
+                        Mi esposa tiene un cuerpo delgado, igual que antes de la boda, y por lo tanto, la energía y la
+                        felicidad han regresado a ella nuevamente.
+                    </b>
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Список шагов -->
+        <section class="container__grid-list">
+            <h2 class="title title--second no-margin-top">
+                Permítanme explicarles brevemente por qué mi producto es tan efectivo. Funciona en dos etapas:
+            </h2>
+
+            <!-- ФЛЕКС СПИСОК контейнер -->
+            <ul class="flex-list--circle flex-list--container">
+                <!-- 1 -->
+                <li class="flex-list__item--circle flex-list__item--container">
+                    <div class="flex-list__item-wrapper--text">
+                        <p class="flex-list__item-text--circle flex-list__item-text--container no-margin-top">
+                            No perderá 1 kg si no se deshace de las toxinas en el cuerpo. Incluso si trabaja duro en el
+                            gimnasio, su peso no cambiará, porque sus intestinos pueden contener hasta 15 kg de
+                            depósitos nocivos y toxinas que circulan en su sangre. Inhiben el metabolismo y bloquean la
+                            quema de grasas. Y es posible que ni siquiera sospeches de su existencia. No puedes
+                            evitarlos. Los inhalas con el aire, el agua potable y los alimentos; también se encuentran
+                            en frutas y verduras.
+                        </p>
+                        <p class="flex-list__item-text--circle flex-list__item-text--container no-margin-top">
+                            Este producto limpia con éxito el cuerpo de varios depósitos y toxinas. Esto permite que el
+                            cuerpo se transforme por completo, eliminando toxinas por sí mismo, quemando grasa más
+                            rápido y consumiendo hasta 15 veces más energía de los alimentos. Por lo tanto, puede
+                            reducir por completo el exceso de comida, reducir drásticamente el apetito y detener el
+                            efecto yo-yo. Gracias a Green coffe, podrás entrar en la fase de quemagrasas automática en
+                            pocos días.
+                        </p>
+                    </div>
+                </li>
+
+                <!-- 2 -->
+                <li class="flex-list__item--circle flex-list__item--container">
+                    <div class="flex-list__item-wrapper--text">
+                        <p class="flex-list__item-text--circle flex-list__item-text--container no-margin-top">
+                            Realmente descompone la grasa en una forma celular. No necesitas ir al gimnasio, correr o
+                            hacer otros deportes. Por supuesto, puedes hacer esto si quieres desarrollar masa muscular.
+                            Sin embargo, si solo quiere deshacerse de la grasa abdominal, los glúteos, los muslos o la
+                            celulitis, use este producto.
+                        </p>
+                        <p class="flex-list__item-text--circle flex-list__item-text--container no-margin-top">
+                            En tan solo unos días, comenzarás a quemar grasa automáticamente las 24 horas del día,
+                            incluso mientras duermes. Además, podrás suprimir el efecto yo-yo. Y puedes estar seguro de
+                            que la grasa que odias desaparecerá para siempre. Gracias a geen coffe, detendrás la
+                            deposición de tejido adiposo a nivel molecular y aumentarás la quema general.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="content-block">
+            <h2 class="title title--second no-margin-top">
+                ¿Por qué le llaman "el remedio perfecto contra la obesidad para personas de 25 a 80 años"?
+            </h2>
+
+            <div class="content__background-wrapper">
+                <p class="content__allocated-text content__allocated-text--second">
+                    <b>
+                        ESTO ES 98% EFECTIVO
+                    </b>
+                </p>
+            </div>
+
+            <img class="full-img" src="./img/content-photo/content-5.jpeg" alt="">
+
+            <p class="text">
+                Hasta hace poco, la pérdida de peso efectiva parecía imposible. Hoy, con la ayuda de mi producto, no
+                solo puede detener el aumento de peso, sino también recuperar su peso anterior. Por ejemplo, mi mujer y
+                14.000 personas que han conseguido un cuerpo esbelto gracias a él son prueba de ello. Además, su
+                eficacia ha sido claramente comprobada por el Centro Investigativo de Guatemala. Este notable
+                descubrimiento fue reconocido y admirado por reconocidos expertos en el campo de la nutrición y la
+                pérdida de peso.
+            </p>
+
+            <p class="text">
+                La naturaleza hace maravillas: ¡todo lo que la ciencia necesita hacer es encontrar la forma adecuada de
+                usarla! El producto es una sustancia natural, es seguro y altamente efectivo. Simplemente toma green
+                coffe y observa cómo la grasa desaparece de su vientre, muslos y glúteos todos los días, y obtiene un
+                cuerpo delgado y sorprendente.
+            </p>
+
+            <h2 class="title title--third no-margin-top">
+                Todos tus amigos, familiares y conocidos quedarán impresionados con tus cambios. ¡No creerán que
+                perdiste peso tan rápido sin hacer nada!
+            </h2>
+
+            <p class="text">
+                Pierde 14 kg en 28 días, aunque el ayuno y el ejercicio intenso no funcionen:
+            </p>
+
+            <p class="text">
+                <b class="text--green">
+                    SEGURIDAD PARA LA SALUD:
+                </b>
+                el producto no contiene ingredientes baratos (como harina o yeso) ni larvas parasitarias dañinas, como
+                las píldoras adelgazantes efervescentes. Es completamente natural y seguro para su salud. En
+                consecuencia, es absorbido directamente por el cuerpo y no afecta sus funciones.
+            </p>
+
+            <p class="text">
+                <b class="text--green">
+                    HIDRATACIÓN ADECUADA:
+                </b>
+                tomar green coffe permite una mejor absorción de los ingredientes activos en un 350%, pero también
+                es responsable de una hidratación adecuada. Esto es muy importante para una pérdida de peso eficaz.
+                La mayoría de los métodos reducen la cantidad de líquido en el cuerpo, lo que provoca la
+                interrupción de las funciones corporales y reacciones protectoras. El cuerpo comienza a protegerse
+                de la pérdida de peso. Esta no es una manera de perder peso. Después de la primera aplicación de
+                cgreen coffe, el cuerpo estará mejor hidratado.
+            </p>
+
+            <p class="text">
+                <b class="text--green">
+                    ACCIÓN DIRECTA:
+                </b>
+                desde que se bebe,comienza a actuar activamente en el organismo. Si bebiste uno de ellos antes de
+                leer esto, ¡definitivamente estás quemando grasa!
+            </p>
+
+            <div class="product__wrapper-img">
+                <img class="product__img-min" src="./img/content-photo/content-7.png" alt="">
+
+                <img class="product__img" src="./img/content-photo/content-6.jpeg" alt="">
+            </div>
+
+            <div class="content__background-wrapper">
+                <p class="content__allocated-text content__allocated-text--second">
+                    <b>
+                        <span class="crossed-out text--red">508 GTQ</span>
+                        269 GTQ ¡Solo hoy!
+                    </b>
+                </p>
+            </div>
+
+            <ul class="checkmark-list padding-left">
+                <li class="checkmark-list__item checkmark-list__item--miniature">
+                    LIMPIEZA DE DEPÓSITOS DE GRASAS Y TOXINAS
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--miniature">
+                    ACELERA EL METABOLISMO
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--miniature">
+                    QUEMA DE GRASA AUTOMÁTICA LAS 24 HORAS DEL DÍA
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--miniature">
+                    ATENCIÓN A LA SALUD Y LA ENERGÍA
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--miniature">
+                    FÁCIL DE USAR
+                </li>
+
+                <li class="checkmark-list__item checkmark-list__item--miniature">
+                    AHORRE CIENTOS DE MILES
+                </li>
+            </ul>
+
+            <h2 class="title title--second">
+                ¿Quieres perder la oportunidad de conseguir el cuerpo de tus sueños?
+            </h2>
+
+            <p class="text">
+                Puede seguir siendo obeso, tener baja autoestima y poner en peligro su salud. Puedes torturarte con
+                dietas ineficaces... Pero, ¿por qué hacer esto cuando te garantizo un método rápido, fácil y seguro con
+                el que puedes perder 14 kg en 28 días y conseguir el cuerpo de tus sueños? El proceso de perder peso
+                tomará solo 28 días y te unirás a otros 14,000 que lo han hecho y ahora disfrutan de un cuerpo hermoso y
+                saludable.
+            </p>
+
+            <h2 class="title title--second">
+                ¡Sin riesgo!
+            </h2>
+
+            <p class="text">
+                Perderá 14 libras en 28 días. ¡Ningún riesgo para usted! Mis productos, han sido suministrados en todo
+                el mundo, están cubiertos por una triple garantía: autenticidad, calidad y satisfacción.
+            </p>
+
+
+            <h2 class="title title--second no-margin-bottom">
+                Triple Garantía de Satisfacción
+            </h2>
+
+            <!-- Список с круглыми элементами -->
+            <ul class="list--circle">
+                <!-- 1 -->
+                <li class="list__item--circle">
+                    <img class="list__item-img--circle" src="./img/content-photo/original.jpg" alt="">
+
+                    <h2 class="sub-title">
+                        GARANTÍA DE AUTENTICIDAD
+                    </h2>
+
+                    <p class="text list__item-text--circle">
+                        Puede estar seguro de que está obteniendo un producto original. Solo está disponible en esta
+                        página.
+                    </p>
+                </li>
+
+                <!-- 2 -->
+                <li class="list__item--circle">
+                    <img class="list__item-img--circle" src="./img/content-photo/quality.png" alt="">
+
+                    <h2 class="sub-title">
+                        GARANTÍA DE CALIDAD
+                    </h2>
+
+                    <p class="text list__item-text--circle">
+                        la pureza de los ingredientes activos del curso cumple con los más altos estándares de calidad.
+                        Esto se hace para que el efecto pueda cumplir con sus expectativas en un 100%.
+                    </p>
+                </li>
+
+                <!-- 3 -->
+                <li class="list__item--circle">
+                    <img class="list__item-img--circle" src="./img/content-photo/satisfaction.png" alt="">
+
+                    <h2 class="sub-title">
+                        GARANTÍA DE SATISFACCIÓN
+                    </h2>
+
+                    <p class="text list__item-text--circle">
+                        Varias pruebas de consumidores confirman la alta efectividad del producto.
+                    </p>
+                </li>
+            </ul>
+
+            <div class="content__background-wrapper no-margin-bottom">
+                <h2 class="title title--second">
+                    Pierde 14 kg de forma rápida, fácil y económica en 28 días si tienes entre 25 y 80 años.
+                </h2>
+
+                <p class="text">
+                    Grandes compañías farmacéuticas de EE. UU. y Japón están luchando por una patente. Una vez que venda
+                    la
+                    patente, estará disponible en todo el mundo, pero definitivamente será muy costosa.
+                </p>
+
+                <p class="text">
+                    Antes de que eso sucediera, decidí ponerlo a disposición en Guatemala por un 55% más barato. Todo
+                    esto
+                    es para ayudar a tantas personas como sea posible en mi país de origen a perder peso de manera
+                    efectiva.
+                </p>
+
+                <p class="text">
+                    Por lo que, le aconsejo a que aproveche esta oportunidad. Ordenar es muy fácil. No hay necesidad de
+                    enviar dinero en línea o pagar con tarjeta. Simplemente complete el formulario en 2 minutos y en
+                    unos
+                    días recibirá un paquete que puede pagar fácilmente por mensajería.
+                </p>
+
+                <p class="text">
+                    Gracias por tomarse el tiempo de leer mi publicación. Te deseo mucha suerte en tu nueva vida. Una
+                    nueva
+                    vida sin obesidad ni privaciones, y una nueva vida con confianza y fuerza.
+                </p>
+
+                <p class="text text--no-indent">
+                    Prof. Mauro Martinez
+                </p>
+
+                <img src="./img/content-photo/signature.png" alt="" class="signature-img">
+            </div>
+        </section>
+
+
+        <!--sliders-->
+        <div id="incSlider" class="slider">
+            <div class="slickSlider">
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/comment-1.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                El único método efectivo
+                            </h2>
+
+                            <p>
+                                Probé diferentes formas de perder peso, porque mi peso de 89 kg está lejos del "cuerpo
+                                ideal". Nada funcionaba y estaba desperdiciando mi energía, esperanza y mucho dinero.
+                                Con Green coffe, los resultados son realmente extraordinarios. Perdí 28 kg y renaci de
+                                nuevo.
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>
+                                    Verónica De León, 59 años
+                                </strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/comment-2.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                Soy una súper mamá!
+                            </h2>
+
+                            <p>
+                                Los niños en la escuela intimidaron a mi hija, diciendo que "su madre es del tamaño de
+                                un hipopótamo". Bueno, tenían razón... Yo era gorda, lenta y apenas podía moverme. No
+                                sabía qué hacer. Quería ser una mamá feliz y alegre, y me parecía que siempre estaría
+                                cansada y seguiría asfixiándome en cuanto diera unos pasos. Afortunadamente, me enteré
+                                de Green coffe. Me siento mejor desde la primera aplicación. Después de unos 2 meses,
+                                perdí 23 kilogramos. ¡Me siento ligero y finalmente puedo jugar con mi hija!
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>
+                                    Inés Martínez, 42 años
+                                </strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/comment-3.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                Sencillo y eficaz.
+                            </h2>
+
+                            <p>
+                                Es sorprendente que un método tan simple pueda funcionar bien. Simplemente lo bebes e
+                                inmediatamente comienzas a quemar grasa. Excelente. Yo, mi hermana y mi prima ya lo
+                                estamos usando. ¡Se lo recomiendo a todo el mundo! Este es un descubrimiento
+                                verdaderamente revolucionario en el campo de la pérdida de peso.
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>
+                                    Leonor Ramírez, 55 años
+                                </strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/comment-4.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                Mi esposa dejó de regañarme.
+                            </h2>
+
+                            <p>
+                                Gracias a Green coffe bajé 22 kilos en 7 semanas. Sentí como si alguien me hubiera
+                                quitado un gran peso de encima. Mi esposa finalmente dejó de quejarse de que yo estaba
+                                gordo y podía morir de un ataque al corazón. ¡Ahora me ve como un hombre!
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>Sergio Guerra, 62 años</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/comment-5.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                Siento confianza de nuevo
+                            </h2>
+
+                            <p>
+                                Después de 30 años, comencé a tener problemas de sobrepeso. Con los años, he ganado 28
+                                kilogramos. Trabajo como cajera, así que necesito lucir bien y moverme con facilidad. No
+                                tengo tiempo para ir al gimnasio y mi salud no me permite seguir una dieta estricta.
+                                Pero me avergüenzo de mi obesidad y quiero bajar de peso. Además, todavía no tengo
+                                marido y quiero conocer a alguien. Al principio no pensé que cualquier tratamiento que
+                                se vendiera barato pudiera ser efectivo. Pero he visto por experiencia propia lo
+                                efectivo que es. ¡Perdí 25 kilogramos, volví a adelgazar y ahora soy una mujer
+                                atractiva!
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>
+                                    Nuria Paz, 44 años
+                                </strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/comment-6.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                Lo necesito
+                            </h2>
+
+                            <p>
+                                Años de estar sentado en un escritorio porque soy un empleado del gobierno lo han
+                                cambiado todo. Ya sabes cómo sucede: un hombre se sienta todo el día y no tiene fuerzas
+                                para moverse después del trabajo, además siempre está lleno del almuerzo de su esposa.
+                                Así que gané 114 libras. De repente este cuerpo me hace sentir cansado y con sueño, ni
+                                siquiera estudio en casa, trabajo despacio. Siento que soy un inútil. Hasta que mi hija
+                                me dio este remedio para bajar de peso. ¡Esto es algo extraordinario! Inmediatamente
+                                sentí la diferencia. Perdí 26 kg. Tengo más energía y me siento 20 años más joven. Ahora
+                                paso tiempo activamente con mi familia, como antes.
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>
+                                    Liam Díaz, 61
+                                </strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/tarno.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                Puedo trabajar de nuevo.
+                            </h2>
+
+                            <p>
+                                Trabajé como vigilante nocturno. Una noche quise tomar una siesta y luego escuché una
+                                alarma. Vi a un grupo de personas irrumpiendo en el almacén. Intenté alcanzarlos, pero
+                                no puedo respirar bien por el peso y me caí al suelo. Los ladrones asaltaron el almacén
+                                y me despidieron. Empecé a buscar formas de perder peso y la gente de todas partes
+                                escribió que este producto es el mejor. Lo probé y perdí 15 kilogramos en 40 días. ¡Qué
+                                transformación! He recuperado mi forma física y puedo trabajar de nuevo.
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>
+                                    Alberto García, 59 años
+                                </strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide flex flex-column">
+                        <div class="slide-image">
+                            <img src="./img/r-avatar/comment-7.png" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <h2>
+                                Una nueva vida a un precio asequible
+                            </h2>
+
+                            <p>
+                                Siempre me han dicho que el sobrepeso es el resultado de la glotonería, y todo lo que
+                                tienes que hacer es comer menos para perder peso. ¡Eso seria genial! Me torturé con una
+                                dieta terrible, comí solo 3 manzanas al día y no tuve ningún efecto. ¡Mi metabolismo no
+                                parece estar funcionando! Solo con Green coffe siento la diferencia. Y eso es en tan
+                                sólo en unos días. Antes de darme cuenta, he perdido 12 kilogramos, ¡y eso en solo 4
+                                semanas, por supuesto! ¡Es un milagro!
+                            </p>
+
+                            <span class="rating" title="Ocena" redakcji="">
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                                <span class="yellowstar">★</span>
+                            </span>
+                            <p><strong>
+                                    Rufina Flórez, 29 años
+                                </strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-buttons">
+                <a class="slide-next"><img src="./icons/right-arrow.svg" alt=""></a>
+                <a class="slide-back"><img src="./icons/right-arrow.svg" alt=""></a>
+            </div>
+        </div>
+        <script src="script/jquery-1.11.3.min.js"></script>
+        <!-- Slick JS -->
+        <script type="text/javascript" src="script/slick/slick.min.js"></script>
+        <script src="script/script.js"></script>
+        <script src="script/main_new.js"></script>
+
+
+        <!-- Осталось продуктов -->
+        <div class="number-wrapper">
+            <div class="number-wrapper__border">
+                <p class="text number-wrapper__text">Disponible en stock :</p>
+
+                <ul class="number-wrapper__list">
+                    <li class="number-wrapper__list-item">
+                        <p class="number-wrapper__list-item-text">0</p>
+                    </li>
+                    <li class="number-wrapper__list-item">
+                        <p class="number-wrapper__list-item-text">1</p>
+                    </li>
+                    <li class="number-wrapper__list-item">
+                        <p class="number-wrapper__list-item-text">3</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Мечта -->
+        <section class="content-block no-padding-bottom no-padding-top">
+            <h2 class="title dream__title no-margin-top">
+                OBTENGA GREEN COFFE EN 1 SIMPLE PASO
+            </h2>
+
+            <p class="text">
+                ¡SÍ! Quiero conseguir Green coffe con descuento. Esto significa que mi elección es completamente segura,
+                ya que el producto está cubierto por una triple garantía. El paquete me será enviado en los próximos
+                días por correo o mensajería sin pago adicional.
+            </p>
+
+            <div class="dream__product-wrapper">
+                <img class="dream__product-img" src="./img/content-photo/content-6.jpeg" alt="">
+                <span class="dream__product-span"></span>
+                <span class="dream__product-price-total">508 GTQ</span>
+                <span class="dream__product-price-discount">
+                    269 GTQ
+                </span>
+            </div>
+        </section>
+
+
+        <!-- Форма -->
+        <section class="content-block form">
+            <form id="form2" action="success.php?p={p}" method="POST" class="wv_order-form form--transparent">
+                <p><a name="buy"></a></p>
+                <h2 class="title form__title">
+                    FORMULARIO DE PEDIDO
+                </h2>
+
+                <ul class="form__list-wrapper-icon">
+                    <li class="form__list-item">
+                        <img class="item-icon" src="./img/content-photo/ico11.png" alt="">
+                    </li>
+                    <li class="form__list-item">
+                        <img class="item-icon" src="./img/content-photo/ico22.png" alt="">
+                    </li>
+                    <li class="form__list-item">
+                        <img class="item-icon" src="./img/content-photo/ico33.png" alt="">
+                    </li>
+                </ul>
+
+                <div class="form__inputs">
+                    <!--с предыдушей формы-->
+                    <!--  <input id="name" name="name" type="text" class="wv_name form-control form__input" placeholder="Utónév:" required> -->
+
+                    <input id="name1" name="name" type="text" class="name2 form-control form__input" placeholder="Nama:"
+                        required>
+
+                    <input id="phone1" name="phone" type="tel" class="wv_phone form-control form__input"
+                        placeholder="(+502) 2338 7896" required autocomplete="off" data-intl-tel-input-id="0" style="margin-left: 0px; width: 100%;">
+
+                    <!-- Скрытые поля -->
+                    <input type='hidden' name='sub1' value="{subid}">
+                    <input type='hidden' name='sub2' value="{p}">
+                    <input type='hidden' name='sub3' value="m4p_v1">
+
+                    <button class="form__button">
+                        HAGA CLIC AQUÍ,
+                        <br>obtener
+                        Green Coffee</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Футер -->
+    <footer class="main-footer">
+        <p class="main-footer__copy">
+            Copyright © 2005-2022.<br>
+        </p>
+
+        <p class="main-footer__rights">All rights Reserved.</p>
+
+        <div class="main-footer__button-wrapper">
+            <img src="./image/back_to_top.png" alt="">
+        </div>
+        </div>
+    </footer>
+
+
+    <!--
+    <script src="https://unpkg.com/imask"></script>
+    <script>
+    var element = document.getElementById('phone2');
+    var maskOptions = {
+      mask: '+{43}0000000000[00]'
+    };
+    var mask = IMask(element, maskOptions);
+    </script>
+-->
+
+</body>
+
+</html>
