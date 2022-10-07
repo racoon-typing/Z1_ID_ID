@@ -254,6 +254,8 @@
     padding: 0;
     list-style: none;
     margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .flex-list__item--container {
@@ -283,18 +285,18 @@
     color: #E94B3C;
     background: #FEFEFE;
     border-radius: 50%;
-    width: 340px;
+    width: 310px;
     text-align: center;
 }
 
 .flex-list__item--container:nth-child(1)::before {
     content: 'Fase I – Hidrasi dan perlindungan';
-    left: calc(50% - 170px);
+    left: calc(50% - 163px);
 }
 
 .flex-list__item--container:nth-child(2)::before {
     content: 'Fase II – Pemulihan Otomatis';
-    left: calc(50% - 170px);
+    left: calc(50% - 163px);
 }
 
 .flex-list__item-text--container {
@@ -516,7 +518,7 @@
 }
 
 .product__img-min {
-    height: 250px;
+    height: 150px;
     margin-bottom: 20px;
     margin-right: 20px;
 }
@@ -526,6 +528,9 @@
     margin-right: 20px;
 }
 
+.product__img-top {
+    height: 230px;
+}
 
 /* ПРОДУКТ В КОНЦЕ */
 .dream__product-wrapper {
@@ -543,7 +548,7 @@
     height: 300px;
 }
 
-.dream__product-wrapper::before {
+/* .dream__product-wrapper::before {
     position: absolute;
     content: '';
     background-image: url("../img/content-photo/content-7.png");
@@ -553,9 +558,9 @@
     left: 40px;
     width: 50px;
     height: 180px;
-}
+} */
 
-.dream__product-span {
+/* .dream__product-span {
     position: absolute;
     content: '';
     background: url(../img/content-photo/box_price.png) 0% 0% / 100%;
@@ -563,11 +568,11 @@
     background-size: 100%;
     width: 120px;
     height: 120px;
-    bottom: 50px;
-    right: 46px;
-}
+    bottom: 0;
+    left: 0;
+} */
 
-.dream__product-price-total {
+/* .dream__product-price-total {
     position: absolute;
     bottom: 140px;
     right: 52px;
@@ -575,9 +580,9 @@
     font-size: 14px;
     color: white;
     text-align: center;
-}
+} */
 
-.dream__product-price-total::before {
+/* .dream__product-price-total::before {
     position: absolute;
     content: '';
     top: 7px;
@@ -585,16 +590,16 @@
     width: 80px;
     height: 1px;
     border-bottom: 1px solid white;
-}
+} */
 
-.dream__product-price-discount {
+/* .dream__product-price-discount {
     position: absolute;
     bottom: 100px;
     right: 56px;
     width: 100px;
     color: white;
     text-align: center;
-}
+} */
 
 
 /* Список с галочками */
