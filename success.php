@@ -109,32 +109,38 @@ body{height:100%;width:100%;margin:0;position:absolute;font-family:Roboto,sans-s
     <div id="wrapper">
         <div id="content">
             <div class="mod success-page">
-                <h2 class="success-page__title">¡Gracias por tu orden!</h2>
+                <h2 class="success-page__title">
+                    Terima kasih atas pesanan Anda!
+                </h2>
                 <div class="success_icon">
                     <p>&#10003;</p>
                 </div>
-                <h2>¡Nuestros especialistas se pondrán en contacto contigo lo antes posible!</h2>
-                <p class="success-page__text">Por favor, compruebe que la información que ha introducido es correcta:</p>
+                <h2>
+                    Spesialis kami akan menghubungi Anda sesegera mungkin!
+                </h2>
+                <p class="success-page__text">
+                    Harap periksa apakah informasi yang Anda masukkan sudah benar:
+                </p>
                 <div class="list-info">
                     <ul class="list-info__list">
                         <li class="list-info__item">
-                            <span class="list-info__text">Nombre:</span>
+                            <span class="list-info__text">Nama:</span>
                             <span class="list-info__info"><?php echo $_POST['name'] ?></span>
                         </li>
                         <li class="list-info__item">
-                            <span class="list-info__text">número de teléfono:</span>
+                            <span class="list-info__text">Nomor telepon:</span>
                             <span class="list-info__info"><?php echo $_POST['phone'] ?></span>
                         </li>
                     </ul>
                 </div>
                 <p class="success-page__message_fail">
                     <a class="success-page__message_fail__link" href="javascript:history.back()">
-                        Si cometió un error al completar el formulario, por favor llénelo nuevamente.
+                        Jika Anda melakukan kesalahan saat mengisi formulir, harap isi kembali.
                     </a>
                 </p>
                 <div class="success-page_back_button">
                     <a href='/'>
-                        Devolver
+                        Mengembalikan
                     </a>
                 </div>
             </div>
